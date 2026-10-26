@@ -1,1 +1,1 @@
-"""EarlyBank evaluation utilities."""
+"""FinDistress evaluation utilities."""

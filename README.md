@@ -1,6 +1,6 @@
-# EarlyBank: How Early Can Machine Learning Predict Corporate Financial Distress?
+# FinDistress: How Early Can Machine Learning Predict Corporate Financial Distress?
 
-EarlyBank measures **how far in advance** corporate financial distress can be predicted from
+FinDistress measures **how far in advance** corporate financial distress can be predicted from
 financial statements, and **which signals warn earliest**. Instead of a single "next year" model,
 it trains and compares models at **1, 2, 3, 4 and 5 years before distress**, using a
 company-grouped cross-validation protocol and a leak audit of the published benchmark.
@@ -361,7 +361,7 @@ corporate failure.
 ## 11. Reproduce
 
 ```bash
-conda create -n earlybank python=3.12 -y && conda activate earlybank
+conda create -n fin-distress python=3.12 -y && conda activate fin-distress
 pip install -r requirements.txt
 # download the V4FinBench parquet files into data/
 jupyter lab   # run data_preview, eda, evaluation, then models
