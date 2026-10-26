@@ -38,6 +38,7 @@ company-grouped cross-validation protocol and a leak audit of the published benc
 10. [Limitations](#10-limitations)
 11. [Reproduce](#11-reproduce)
 12. [References](#12-references)
+13. [Acknowledgements](#13-acknowledgements)
 
 ---
 
@@ -402,3 +403,7 @@ own license and attribution requirements and is not distributed here.
 - Altman, E. I. (1968). Financial ratios, discriminant analysis and the prediction of corporate
   bankruptcy. *The Journal of Finance*, 23(4), 589–609.
 - Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. *KDD*.
+
+## 13. Acknowledgements
+
+Thanks to [@shshodiyev162-max](https://github.com/shshodiyev162-max) for his mentorship, feedback, and technical guidance throughout the development of FinDistress.
